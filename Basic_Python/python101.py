@@ -110,7 +110,113 @@ while i<10:
 
 
 
+# Importing 
+print("Importing is important:")
 
+import sys # system functions and parameters
+
+from datetime import datetime
+print(datetime.now())
+
+from datetime import datetime as dt # importing with an alias
+print(dt.now())
+
+def new_line():
+    print("\n")
+
+new_line()
+
+# Advanced Strings
+print("Advanced strings:")
+my_name = "John"
+print(my_name[0])
+print(my_name[-1])
+print(my_name[-2])
+
+sentence = "This is a sentance."
+
+print(sentence[:4])
+print(sentence[-9:-1])
+
+# spliting sentances
+
+print(sentence.split())
+
+sentence_split = sentence.split()
+sentence_join = ' '.join(sentence_split)
+print(sentence_join+"\n")
+
+quotes = "I like money"
+print(quotes)
+quotes = "'I like money'"
+print(quotes)
+
+
+print("A" in "Apple")
+
+
+letter = "a"
+word = "Apple"
+
+print(letter.upper() in word.upper())
+
+
+
+too_much_space = "                hello             "
+print(too_much_space.strip())
+full_name = "ohn B"
+print(full_name.replace("ohn", "John"))
+print(full_name)
+
+
+
+
+
+movie = "Finding Nemo"
+
+print("My fav movie is {}".format(movie))
+
+def fav_book(title, auth):
+    return "My fav books is \"{}\", which is written by {}".format(title, auth)
+    
+print(fav_book("Star Wars", "George Lucas"))
+
+new_line()
+
+
+# Dictionaries
+print("Dictionaries are keys and values:")
+drinks = {"White Russians" : 7, "Old Fashion" : 10, "Lemon Drop": 8, "Nipple": 6}
+print(drinks)
+
+employees = {"Finance": ["Bob", "Linda", "Tina"], "IT": ["Gene", "Louise", "Teddy"], "HR": ["Jimmy", "John"]}
+print(employees)
+
+employees["Legal"] = ["Mr. Ford"] # add a new key
+
+print(employees)
+
+employees.update({"Sales": ["Andy", "Ollie"]})
+print(employees)
+
+drinks["White Russians"] = 8
+
+print(drinks)
+
+
+
+
+
+print(drinks.get("White Russians"))
+print(drinks.get("ASDASD"))
+print(drinks["White Russians"])
+
+
+movies = ["When Harry met Sally", "The Hangover", "Parks and recreation", "The Exorcist"]
+person = ["John", "Heath", "Bob", "Jeff"]
+combined = zip(movies, person)
+movie_dict = {key: value for key, value in combined}
+print(movie_dict)
 
 
 
