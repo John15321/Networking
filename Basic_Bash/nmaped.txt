@@ -1,0 +1,33 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-02-29 20:55 EST
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-02-29 20:55 EST
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-02-29 20:55 EST
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-02-29 20:55 EST
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-02-29 20:55 EST
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-02-29 20:55 EST
+Nmap scan report for 192.168.1.120
+Host is up (0.0039s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.08 seconds
+Nmap scan report for netiaspot.home (192.168.1.254)
+Host is up (0.0017s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.11 seconds
+Nmap scan report for EPSON6FE04A.home (192.168.1.5)
+Host is up (0.0054s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 1.58 seconds
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 2.05 seconds
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 2.06 seconds
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 2.07 seconds
